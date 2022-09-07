@@ -1,0 +1,63 @@
+constant variable api = {
+  key: the key written as string
+  base: the complete web address written as string,
+};
+
+
+constant variable searchbox = return the element entered in the search bar;
+add listener when the enter button is pressed
+
+function set query of the event {
+  if the enter button is pressed{
+    get the result of element entered in the searchbox;
+  }
+}
+
+
+function get result of the query {
+  lines of code provided by the API provider
+}
+   display result
+}
+
+
+function display the weather {
+
+  city variable  = match the city variable with the location class on the UI file;
+  get the city variable and return the name of city along with the country;
+
+  local variable now = initialize to date;
+  local variable date = match the date variable with the date on the UI file;
+  get the date variable and return the system date form;
+
+
+  variable temp =  match the variable temp with temp on the UI file;
+  get the temperature and return it as a whole number;
+
+
+  local variable weather_el = match the weather_el  variable with weather on the UI file;
+  get the weather_el text and output the state of the time.
+
+  local variable hilow = match the hilow variable with hi-low on the UI file;
+  get the hilow variable and return the highest temperature and lowest temperature divided by the slash symbol
+
+
+background of the body = display random images taken from an url
+ 
+}
+ 
+
+ function date builder {
+  local variable months = list of the 12 months of the year;
+
+  local variable day = list of the 7 days of the week;
+  
+  local variable day = get day from the list of days;
+  local variable date = get current date;
+  local variable month = get current month;
+  local variable year = get current year;
+
+    return day, date, month and year;
+}
+ start the app with the philadelphia local 
+
